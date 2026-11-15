@@ -19,11 +19,11 @@ Reservoir sand is somebody's hillside. Around the North Sea there are three kind
 ## Build
 
 ```
-uv run --project ../kit-subscout subscout build story --out _site
-python ../kit-subscout/scripts/readability.py _site
+uv run --project ../core-subscout subscout build story --out _site
+python ../core-subscout/scripts/readability.py _site
 ```
 
-The extracts are rebuilt with `uv run --project ../source-to-sink python scripts/make_extracts.py` when the pipeline changes.
+The extracts are rebuilt with `uv run --project ../kit-source-to-sink python scripts/make_extracts.py` when the pipeline changes.
 
 ## Licence and acknowledgement
 

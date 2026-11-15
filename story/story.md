@@ -24,7 +24,7 @@ sources:
     note: "Lehner, B., Grill G. (2013): Global river hydrography and network routing: baseline data and new approaches to study the world's large river systems. Hydrological Processes 27(15). Catchments grouped and summarised by the author, whole, for all of Europe."
   s2s:
     name: source-to-sink, the author's catchment composition and budget pipeline
-    url: "https://github.com/AdmcCarthy/source-to-sink"
+    url: "https://github.com/AdmcCarthy/kit-source-to-sink"
     accessed: 2026-11-10
     note: "Bedrock shares from the national geological surveys' open maps (NGU under NLOD 2.0, SGU open geodata, GTK open licence, BGS and GSNI under the Open Government Licence, GSI under CC BY 4.0) and, where no open national map covers the ground, the IGME 5000 of the BGR (cited) and Poland's 1:1M map of the PIG, read into one vocabulary; sediment flux by the BQART relation of Syvitski and Milliman (2007); terrain from Relief (Copernicus DEM GLO-90 by ESA and EMODnet Bathymetry; climate zones from Beck and others 2023, CC BY 4.0)."
   hoffmann:

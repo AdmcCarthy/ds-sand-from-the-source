@@ -19,7 +19,7 @@ from PIL import Image
 from shapely.geometry import box, mapping
 
 ROOT = Path(__file__).resolve().parents[1]
-S2S = ROOT.parent / "source-to-sink" / "data" / "derived"
+S2S = ROOT.parent / "kit-source-to-sink" / "data" / "derived"
 EU = S2S / "europe"
 RELIEF = ROOT.parent / "kit-relief" / "data" / "out"
 OUT = ROOT / "story" / "data"
