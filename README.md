@@ -1,5 +1,8 @@
 # Sand from the Source
 
+[![Pages](https://github.com/AdmcCarthy/ds-sand-from-the-source/actions/workflows/pages.yml/badge.svg)](https://github.com/AdmcCarthy/ds-sand-from-the-source/actions/workflows/pages.yml)
+[![Licence](https://img.shields.io/badge/licence-MIT%20with%20acknowledgement-lightgrey)](LICENSE)
+
 A SubScout data story about where North-east Europe's sand comes from today: the drainage catchments of Norway, Sweden and Finland, Britain and Ireland and the continental lowlands, what bedrock they erode, how much sediment they can deliver, how clean the sand should be, how the four terrains compare, and where the present day stops standing for the basins' past.
 
 Live at https://admccarthy.github.io/ds-sand-from-the-source/ once Pages has deployed.
