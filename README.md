@@ -2,7 +2,7 @@
 
 A SubScout data story about where North-east Europe's sand comes from today: the drainage catchments of Norway, Sweden and Finland, Britain and Ireland and the continental lowlands, what bedrock they erode, how much sediment they can deliver, how clean the sand should be, how the four terrains compare, and where the present day stops standing for the basins' past.
 
-Live at https://admccarthy.github.io/Sand-from-the-Source/ once Pages has deployed.
+Live at https://admccarthy.github.io/ds-sand-from-the-source/ once Pages has deployed.
 
 ## The argument
 
@@ -19,8 +19,8 @@ Reservoir sand is somebody's hillside. Around the North Sea there are three kind
 ## Build
 
 ```
-uv run --project ../SubScout subscout build story --out _site
-python ../SubScout/scripts/readability.py _site
+uv run --project ../kit-subscout subscout build story --out _site
+python ../kit-subscout/scripts/readability.py _site
 ```
 
 The extracts are rebuilt with `uv run --project ../source-to-sink python scripts/make_extracts.py` when the pipeline changes.
@@ -28,5 +28,5 @@ The extracts are rebuilt with `uv run --project ../source-to-sink python scripts
 ## Licence and acknowledgement
 
 MIT License with Acknowledgement ([LICENSE](LICENSE)): the MIT terms plus one condition. Anything built with this work says so,
-visibly and in plain words, and does not imply endorsement: "Built with Sand from the Source by Adam McCarthy (https://github.com/AdmcCarthy/Sand-from-the-Source)". The wording is custom, so
+visibly and in plain words, and does not imply endorsement: "Built with Sand from the Source by Adam McCarthy (https://github.com/AdmcCarthy/ds-sand-from-the-source)". The wording is custom, so
 the licence is not OSI-approved. Data terms and attribution lines are in DATA-LICENCE.md; third-party data and vendored code keep their own terms.

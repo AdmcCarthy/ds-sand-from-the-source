@@ -21,7 +21,7 @@ from shapely.geometry import box, mapping
 ROOT = Path(__file__).resolve().parents[1]
 S2S = ROOT.parent / "source-to-sink" / "data" / "derived"
 EU = S2S / "europe"
-RELIEF = ROOT.parent / "Relief" / "data" / "out"
+RELIEF = ROOT.parent / "kit-relief" / "data" / "out"
 OUT = ROOT / "story" / "data"
 FRAMES = ["ne_europe", "north_sea", "norwegian_sea"]
 # The map behind each frame is Relief's landscape (2 : 1) region in the frame's own projection, wider than the catchment frame (Idiom
