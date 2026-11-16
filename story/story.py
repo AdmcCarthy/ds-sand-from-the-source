@@ -1,5 +1,5 @@
 """Metrics and derived tables for Sand from the Source. Every number in the prose comes from here, with its method,
-source and confidence. Inputs are the extracts in story/data written by scripts/make_extracts.py."""
+source and confidence. Inputs are the extracts in story/data written into this repository by the author's private pipeline."""
 
 from subscout import metric
 

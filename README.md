@@ -16,7 +16,7 @@ Reservoir sand is somebody's hillside. Around the North Sea there are three kind
 - `story/story.md`: the narrative, every number a `{{ metric }}`.
 - `story/story.py`: metrics with method, source and confidence; the per-terrain comparison table.
 - `story/figures/basin.js`: the map, on Relief's landscape (2 : 1) regions for the North-east Europe, North Sea and Norwegian Sea frames, drawing one Europe-wide catchment set.
-- `story/data/`: small extracts (CSV, GeoJSON) written by `scripts/make_extracts.py` from the author's private source-to-sink pipeline. `compare.csv` holds the per-terrain totals.
+- `story/data/`: small extracts (CSV, GeoJSON) made once by the author's private source-to-sink pipeline and kept as they are. `compare.csv` holds the per-terrain totals.
 - `DATA-LICENCE.md`: the terms of every source and the attribution lines the page prints.
 
 ## Build
@@ -26,7 +26,7 @@ uv run --project ../core-subscout subscout build story --out _site
 python ../core-subscout/scripts/readability.py _site
 ```
 
-The extracts are rebuilt with `uv run --project ../kit-source-to-sink python scripts/make_extracts.py` when the pipeline changes.
+The extracts are written into this repository by the author's private pipeline; this repository holds only the finished files, so it builds without it.
 
 ## Licence and acknowledgement
 
