@@ -1,0 +1,3 @@
+[repo]
+name = "ds-sand-from-the-source"
+depends_on = ["core-subscout"]   # story/story.py runs inside SubScout; the build checks it out (no pyproject here)
