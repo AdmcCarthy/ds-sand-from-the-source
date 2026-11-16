@@ -1,6 +1,6 @@
 """Write the small public extracts for the story from the private sibling repos.
 
-Reads source-to-sink/data/derived/europe/ (every drainage system from Iceland to the Caspian edge, whole, with composition, budget
+Reads the source-to-sink pipeline's data/derived/europe/ (every drainage system from Iceland to the Caspian edge, whole, with composition, budget
 and groups; rivers; slope flow; outlets) and Relief/data/out/<frame>_wide/ (the landscape region: hillshade, base maps and the 0 m
 land band), cuts the Europe set to each frame's map extent, and writes story/data/. One catchment set serves every frame, so a
 system is never cut at a frame edge and a zoomed-out map is as complete as a close one. See DATA-LICENCE.md. Everything written
